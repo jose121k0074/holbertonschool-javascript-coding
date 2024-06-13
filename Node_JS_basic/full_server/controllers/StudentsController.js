@@ -6,7 +6,7 @@ class StudentsController {
       .then((fields) => {
         const students = [];
         let msg;
-        
+
         students.push('This is the list of our students');
 
         for (const key of Object.keys(fields)) {
